@@ -1,0 +1,38 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.navbar-wrapper {
+  background-color: #8c0c0c;
+  height: 50px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.parinte {
+  display: inherit;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+li{
+  margin: 0 10px;
+  list-style: none;
+  align-items: center;
+ 
+}
+
+a {
+  text-decoration: none;
+  color: white;
+  align-items: center;
+}
+
+a:hover {
+  border-bottom: 2px solid white;
+  padding-bottom: 4px;
+  transition: 0.5s;
+}
+
+
